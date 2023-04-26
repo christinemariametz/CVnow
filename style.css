@@ -1,0 +1,33 @@
+
+*,
+*:before *:after {box-sizing: border-box;
+}
+
+html {font-family: Arial, Helvetica, sans-serif ;
+}
+
+h1 {
+    margin: 100px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    border: 100px;
+    ;}
+
+    header {
+        padding: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+body {
+    margin: auto;
+    background-color: white;
+    border: 5px solid white;
+    font-family: Arial, Helvetica, sans-serif
+    color black;
+}
+
+
+main {
+    padding: 10px;
+}
