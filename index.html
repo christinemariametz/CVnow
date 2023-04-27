@@ -3,6 +3,10 @@
   <head>
     <meta name="author" content="Tine Metz">
     <meta name="description" content="The CV of Christine Maria Metz">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/normalize.css@8.0.1/normalize.css"
+  />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -15,35 +19,35 @@
   </head>
     
     <body>
-      <header>
+      <header class="header">
         <h1>Christine Metz</h1>
-        <p>Junior Web Developer Frontend</p>
+        <p class="profession">Junior Web Developer Frontend</p>
+        <nav>
+          <a class="nav-link" href="#profile">Profile</a>
+          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
       </header>
 
-      <nav>
-        <a href="#profile">Profile</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
        
-      <main>
+      <main class="main">
         <article id="profile">
           <h2>Profile</h2>
           <p>
            Hey, I am Tine. I am the founder of the sustainable fashion label <em>AFORAWORLD</em> and a career changer in the IT world too.
           </p>
         </article>
-
-
         <article id="experience">
           <h2>Experience</h2>
             <section>
               <header>
-                <h3>AFORAWORLD - Founder/CEO</h3>
-                </header>
-                <p>June 2020 - Present</p>
+                <h3 class="experience-heading">
+                  AFORAWORLD - Founder/CEO
+                </h3>
+                <p class="experience-subheading">June 2020 - Present</p>
+              </header>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
                 autem necessitatibus. Modi magnam consectetur reiciendis a id
@@ -53,9 +57,9 @@
             </section>
             <section>
               <header>
-                <h3>UDEMY - Various Courses</h3>
+                <h3 class="experience-heading">UDEMY - Various Courses</h3>
+                <p class="experience-subheading">2021</p>
               </header>
-              <p>2021</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
                 obcaecati corrupti impedit perspiciatis quibusdam velit a, error
@@ -70,9 +74,9 @@
           <h2>Education</h2>
           <section>
             <header>
-              <h3>Bachelor of Arts - Akademie Mode und Design</h3>
+              <h3 class="experience-heading">Bachelor of Arts - Akademie Mode und Design</h3>
+              <p class="experience-subheading">August 2012 - August 2016</p>
             </header>
-            <p>August 2012 - August 2016</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
               autem necessitatibus. Modi magnam consectetur reiciendis a id
@@ -82,9 +86,9 @@
           </section>
           <section>
             <header>
-              <h3>Bekleidungstechnikerin - Bekleidungsfachschule AB</h3>
+              <h3 class="experience-heading">Bekleidungstechnikerin - Bekleidungsfachschule AB</h3>
+              <p class="experience-subheading">2009 - 2011</p>
             </header>
-            <p>2009 - 2011</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
               obcaecati corrupti impedit perspiciatis quibusdam velit a, error
@@ -101,7 +105,7 @@
               <ul>
                 <li>Motivated and open minded</li>
                 <li>An eye on details</li>
-                <li>Creative</li>
+                <li>Creative Thinking</li>
               </ul>
             </section>
             <section>

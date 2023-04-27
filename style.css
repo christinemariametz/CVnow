@@ -1,33 +1,92 @@
 
+/* General Stylings! */
+
+
 *,
-*:before *:after {box-sizing: border-box;
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-html {font-family: Arial, Helvetica, sans-serif ;
+html {
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
-h1 {
-    margin: 100px;
-    text-align: center;
-    color: black;
-    background-color: whitesmoke;
-    border: 100px;
-    ;}
-
-    header {
-        padding: 0px;
-        font-family: 'Montserrat', sans-serif;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
 
 body {
-    margin: auto;
-    background-color: white;
-    border: 5px solid white;
-    font-family: Arial, Helvetica, sans-serif
-    color black;
+    margin: 0;
+}
+
+*::selection {
+    background-color: blanchedalmond;
+    color: black;
 }
 
 
-main {
-    padding: 10px;
+/******** Specific Stylings */
+
+.header {padding: 48px 16px;
+        text-align: center;
+        background-color:  beige;
 }
+.profession::before {
+    content: "🍪";
+}
+    
+.profession::after {
+    content: "🍪";
+}
+
+.nav-link {
+    margin-left: 16px;
+    background-color: blue;
+}
+
+.nav-link:visited {
+    background-color: lightcyan;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: lightsalmon;
+}
+  
+.nav-link:active {
+    color: white;
+    background-color: red;
+}
+    
+
+
+.main {
+    max-width: 800px;
+    margin-top: 50;
+    padding: 16px;
+}
+
+.main > * + * {
+    margin-top: 48px;
+}
+
+.main > * {
+    border-top: 8px solid beige;
+}
+
+.main > *:first-child {
+    border-top: none;
+}
+
+.experience-heading {
+    display: inline-block;
+  }
+  
+  .experience-subheading {
+    display: inline-block;
+  }
+
